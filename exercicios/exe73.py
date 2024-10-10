@@ -1,0 +1,11 @@
+times = 'São Paulo', 'Corinthians', 'Palmeiras','Santos', 'Ponte Preta', 'Coritiba', 'Goias', 'Chapecoence', 'Atletico Mineiro'
+print(f'Lista de times do brasileirão: {times}')
+print('-'* 40)
+print(f'Os 5 primeiro são {times[0:5]}')
+print('-'* 40)
+print(f'Os 4 ultimos são {times[5:]} ')
+print('-'* 40)
+print(f'Times em ordem alfabetica {sorted(times)}')
+print('-'* 40)
+print(f'{times[7]} esta na posição {times.index('Chapecoence')+1} posição')
+print('-'* 40)
